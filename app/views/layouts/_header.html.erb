@@ -1,0 +1,11 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to "Rss Reader", feeds_path, class: "navbar-brand" %>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="<%= 'active' if current_page?(feeds_path) %>"><%= link_to "Feeds", feeds_path %></li>
+      <li class="<%= 'active' if current_page?(readers_path) %>"><%= link_to "Reader", readers_path %></li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,8 @@
+{
+  "name": "RssReader",
+  "private": true,
+  "dependencies": {
+    "redis": "^2.8.0",
+    "redis-server": "^1.2.2"
+  }
+}
