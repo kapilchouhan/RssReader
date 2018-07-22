@@ -23,3 +23,5 @@ Things you may want to cover:
 
 * ...
 # RssReader
+
+This rails app is used to fetch out feed data from URL, this app is simple read the RSS feed and fetch out data like URL, title, publication date etc.
